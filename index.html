@@ -31,8 +31,15 @@
             align-items: center;
             text-align: center;
             padding: 0 20px;
+            
+            /* Hier kommt dein Bild von der anderen Domain rein */
+            background-image: linear-gradient(rgba(14, 31, 83, 0.7), rgba(14, 31, 83, 0.7)), 
+                              url('https://a-brinkmann-bilder.de/Banner.png');
+            
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Erzeugt einen leichten Parallax-Effekt */
         }
-
         h1 {
             font-family: 'Lexend', sans-serif;
             font-size: clamp(2.5rem, 8vw, 4.5rem); /* Passt sich dem Handy an */
